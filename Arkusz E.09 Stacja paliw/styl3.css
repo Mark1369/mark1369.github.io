@@ -1,53 +1,83 @@
-head {
-	height: 200px;
-	width: 100%;
-	background-color: Maroon;
-}
-
-
-h1	{
-	
-	color: white;
-	height: 200px;
-	width: 100%;
-	background-color: Maroon;
-	text-align: center-left;
-	
-}
-
-
-
 body {
 	
 	background-color: #f7dff2
 	
 	
+}
+
+#header {
+
+background-color: rgb(130, 69, 85);
+
+height: 200px;
+
+}
+
+#left-header {
+
+color: white;
+height: 200px;
+width: 50%;
+float:left;
+
+}
+
+#right-header {
+
+width: 50%;
+float: right;
+height: 200px;
+
+
+}
+
+#main {
+
+
+
+
+
+}
+
+
+#left {
 	
-	
-	
+	text-align: left;
 	
 	
 }
-h2 {
-	
-	text-align: center;
-	
-	
-	
+
+#right {
+
+background-color: rgb(130, 69, 85);
+height: 200px;
+float: right;
+width: 50%;
+margin-left: 0px;
 	
 }
-kwerenda {
+
+#car {
+
+height: 200px;
+width: auto;
+
+}
+
+
+#left {
 	
-	background-color: Maroon;
-	
-	
-	
+	background-color: rgb(130, 69, 85);
+	height: 200px;
+	float: left;
+	width: 50%;
+	margin-right: 0px;
 }
 
 
 footer {
 	
-	
+	font-size: 13px;
 	
 	
 	
