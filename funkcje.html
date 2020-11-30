@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8"/>
+  <title>Funkcje</title>
+ </head>
+ <body>
+    <h1>PROSTE DZIAŁANIA</h1>
+    
+     <!-- kalkulator -->
+     <label for="pole1">Wprowadź pierwszą liczbę:</label>
+     <input type="number" id="n1"><br><br>
+     <label for="pole2">Wprowadź drugą liczbę:</label>
+     <input type="number" id="n2"><br><br>
+     <p>
+     <button onclick="k(1)" >Dodawanie</button>
+     <button onclick="k(2)" >Odejmowanie</button>
+     <button onclick="k(3)" >Mnożenie</button>
+     <button onclick="k(4)" >Dzielenie</button>
+     </p>
+     <output id="o1"></output>
+     <script>
+        function k(x) {
+        var a=parseInt(n1.value)
+        var b=parseInt(n2.value)
+        var w
+        if (isNaN(a) || isNaN(b)) {
+        w = "Wprowadź obie liczby"
+         }
+        else if(x==4 && b==0) {
+         w = "Nie dzielimy przez zero"
+         }
+        else { 
+        if (x==1) w=a+b
+         else if(x==2) w=a-b
+          else if(x==3) w=a*b
+         else if(x==4 && b!=0) w=a/b
+         w="Wynik działania wynosi: "+w
+         }
+        o1.value = w
+        }
+        </script>
+ </body>
+</html>
