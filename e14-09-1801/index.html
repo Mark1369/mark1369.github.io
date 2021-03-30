@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8"/>
+  <title>Szkoła ponadgimnazjalna</title>
+ </head>
+ <body>
+  <script>
+    function wyznacz() {
+        var a = document.getElementById("sr1").value;
+        var b = document.getElementById("sr2").value;
+        var c = document.getElementById("sr3").value;
+
+        a = parseInt(a);
+        b = parseInt(b);
+        c = parseInt(c);
+
+        if (a < b && a < c) {
+            document.getElementById("wyn").innerHTML=a;
+        }
+
+        else document.getElementById("wyn").innerHTML=c;
+            if (b < c && b < a) {
+                document. getElementById("wyn").innerHTML=b;
+            }
+            else document.getElementById("wyn").innerHTML=a;
+                if (c < a && c < b) {
+                    document.getElementById("wyn").innerHTML=c;
+                }
+                else document.getElementById("wyn").innerHTML=b;
+    }
+</script>
+ <div id=banner>
+    <h1>Projekt strony internetowej szkoły ponadgimnazjalnej</h1>
+ </div>
+ <div id=lpanel>
+    <table style="width: 50%;">
+      
+         <th>
+             <td>Treść zapytania</td>
+             <td>Zrzut ekranu</td>
+         </th>
+        <tr>
+          <td>treść zapytania</td>
+          <td style="width: 405px;">zrzut ekranu</td>
+
+        </tr>
+        <tr>
+          <td>Treść zapytania</td>
+          <td>Zrzut ekranu</td>
+
+        </tr>
+        <tr>
+          <td>Treść zapytania</td>
+          <td>Zrzut ekranu</td>
+
+        </tr>
+        <tr>
+          <td>Treść zapytania</td>
+          <td>Zrzut ekranu</td>
+
+        </tr>
+        <tr>
+          <td>Treść zapytania</td>
+          <td>Zrzut ekranu</td>
+
+        </tr>
+      </table>
+ </div>
+ <div id=rpanel>
+ <h2>Do pobrania</h2>
+ </div>
+ <div id=footer>
+
+ </div>
+</body>
+ </html>
+ 
