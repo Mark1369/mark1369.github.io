@@ -1,0 +1,97 @@
+body {
+	background-color: #1f1d1d;
+	color: white;
+	font-size: 20px;
+	margin: 0 !important;
+}
+
+#container {
+	width: 100%;
+	height: 100%;
+}
+
+#top {
+	width: 50%;
+	padding: 40px 0;
+	height: 100px;
+	margin: auto;
+	font-size: 50px;
+	text-align: center;
+	float:left;
+}
+
+
+#nav {
+	width: 80%;
+	padding: 12px 0;
+	background-color: rgb(189, 2, 2);
+	text-align: center;
+	border-top: 1px solid rgb(189, 2, 2);
+	border-bottom: 1px solid rgb(189, 2, 2);
+	clear: both;
+}
+
+.main {
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding-top: 10px;
+}
+
+
+#footer {
+	height: 50px;
+	text-align: center;
+	background-color: rgb(189, 2, 2);
+	padding: 20px;
+	margin-top: auto;
+	margin-bottom: auto;
+	color: #1f1d1d;
+}
+
+ol {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	font-size: 18px;
+	height: 35px;
+	line-height: 200%;
+	display: inline-block;
+}
+
+ol > li > a {
+	color: #1f1d1d;
+	text-decoration: none;
+	display: block;
+}
+
+ol > li {
+	width: 150px;
+	height: 40px;
+	float: left;
+	border-right: 1px solid #1f1d1d;
+	font-size: 20px;
+}
+
+ol > li:first-child {
+	border-left: 1px solid #1f1d1d;
+}
+
+ol > li:hover {
+	background-color: #1f1d1d;
+}
+
+ol > li:hover > a {
+	color: rgb(189, 2, 2);
+}
+
+p > a {
+	color: rgb(189, 2, 2);
+	text-decoration: none;
+
+}
+
+p > a:hover {
+	color: blue;
+}
